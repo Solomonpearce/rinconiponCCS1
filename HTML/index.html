@@ -1,51 +1,53 @@
 <!DOCTYPE html>
-<html lang="es">
+<head lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El rincon nipon</title>
+    <link href="CSS\styles.css"/>
     <link rel="icon" href="img\puerta-torii.png" type="image/x-icon"></head>
+</head>
+
 <body>
-    <header>
+    <header class="header">
         <h1>El rincón Nipon</h1>
-        <img src="https://japonismo.com/wp-content/uploads/2019/03/consejos-primavera-japon-japonismo.jpg" style="max-width: 100%; height: auto;">
     </header>
     
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sushi.html">Sushi</a></li>
-            <li><a href="yakisoba.html">yakisoba</a></li>
-            <li><a href = "ingredientes.html">Ingredientes</a></li>
+
+    <nav class="header">
+        <ul class="nav-container">
+            <li class="nav-container-element"><a href="index.html">Inicio</a></li>
+            <li class="nav-container-element"><a href="sushi.html">Sushi</a></li>
+            <li class="nav-container-element"><a href="yakisoba.html">yakisoba</a></li>
+            <li class="nav-container-element"><a href = "ingredientes.html">Ingredientes</a></li>
         </ul>
     </nav>
 
     <main>
         <header>
-            <h2>Algunos platillos Representativos</h2>
+            <h2 class="sub-title">Algunos platillos Representativos</h2>
         </header>
         <section> 
-            <article>
+            <article class="post-container">
                 <h3>Sushi</h3>
                 <p>El sushi es un plato japonés elaborado con arroz cocido con vinagre de arroz, sal y azúcar que se acompaña de alga
                     nori y otros ingredientes que pueden ser pescados crudos, verduras y frutas.
                 </p>
-                <a href="sushi.html">Más información</a>
+                <a href="sushi.html" class="see-more-button" >Más información</a>
             </article>
-        </section>
-        <section>  
-            <article>
+         
+            <article class="post-container">
                 <h3>Yakisoba</h3>
                 <p>
                 El yakisoba (Japonés: 焼きそば [jakiꜜsoba]), es un plato clásico de fideos salteados japoneses con carne de cerdo y
                 verduras que se sazona con una salsa dulce y salada. 
                 </p>
-                <a href="yakisoba.html">Más información</a>
+                <a href="yakisoba.html" class="see-more-button">Más información</a>
             </article>
         </section>
 
         <section>  
-            <article>
+            <article class="post-container">
                 <h3>Ingredientes Tipicos de la cocina Japonesa</h3>
                 <p>  
                     La cocina japonesa, conocida por su elegancia y exquisitez, se nutre de ingredientes emblemáticos que definen su
@@ -58,16 +60,16 @@
                     sabores única. Estos ingredientes, en su simplicidad y autenticidad, son la esencia de la cocina japonesa, una tradición
                     culinaria venerada por su maestría en la armonía de sabores y su conexión con la naturaleza.
                 </p>
-                <a href="ingredientes.html">Más información</a>
+                <a href="ingredientes.html" class="see-more-button">Más información</a>
 
             </article>
         </section>
     </main>
 
     <footer>
-        <p>Sitio web de comida Japonesa desarrollado por Harold Gomez.
-            Contacto: harold.gomezg1@udea.edu.co
-            日本 </p>
+        <p>Sitio web de comida Japonesa desarrollado por Harold Gomez.日本 
+        </p>
+        <a href="mailto:harold.gomezg1@udea.edu.co">Contacto: harold.gomezg1@udea.edu.co</a>       
     </footer>
 </body>
 </html>
