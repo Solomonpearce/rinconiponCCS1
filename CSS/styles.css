@@ -6,13 +6,13 @@
     text-decoration: none;
 }
 
-.see-more-btn:hover {
+.see-more-button:hover {
     text-decoration: underline;
 }
 
 .header {
-    background-color: #E63946;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -20,18 +20,31 @@
 .header h1 {
     font-size: 36px;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family:'Times New Roman', Times, serif ;
 }
 
+nav.header2 {
+    background-color: #f77371;
+    padding: 15px 0;
+    text-align: right;
+    display: block;
+    text-align: right;
+
+}
 nav.header {
-    background-color: #F1FAEE;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #ffffffa6;
+    padding: 15px 0;
+    text-align: left;
+    display: block;
 }
 
-ul.nav-container {
-    margin: 10px;
+
+li.nav-container-element2 {
+    display: inline;
+    margin-right: 20px;
 }
+
+
 
 li.nav-container-element {
     display: inline;
@@ -40,77 +53,115 @@ li.nav-container-element {
 
 li.nav-container-element a {
     text-decoration: none;
-    color: #1D3557;
-    font-weight: bold;
-    font-size: 16px;
+    color: #151516;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+li.nav-container-element2 a {
+    text-decoration: none;
+    color: #151516;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .nav-container-element a:hover {
-    border-bottom: 1px solid #457B9D;
+    border-bottom: 1px solid #ff0000;
     transition: border-bottom 0.3s ease;
 }
 
-/* Estilos para el cuerpo principal de la página */
+.nav-container-element2 a:hover {
+    border-bottom: 1px solid #ff0000;
+    transition: border-bottom 0.3s ease;
+}
+
+
+
+
+
+/* Estilos para el cuerpo principal */
 main {
-    /*Ancho máximo*/
-    max-width: 800px;
-    /*Centramos el contenido*/
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .sub-title {
     font-size: 24px;
-    color: #1D3557;
+    color: #0e0e0e;
     margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .post-container {
-    background-color: #F1FAEE;
+    background-color: #f77371;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px ;
 }
+.post-container_s {
+    background-color: #db09053a;
+    padding: 20px;
+    border-radius: 10px ;
+}
+
 
 .post-container h3 {
     font-size: 20px;
-    color: #E63946;
+    color: #ffffff;
     margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
 }
 
 .post-container p {
-    font-size: 16px;
-    color: #333;
+    font-size: 20px;
+    color: #640505;
     line-height: 1.4;
     margin-bottom: 15px;
 }
 
+.post-container li {
+    font-size: 20px;
+    color: #640505;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+
 .post-container a {
-    color: #1D3557;
-    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.post-container2 ul{
+    font-size: large;
 }
 
 /* Estilos para el footer */
 
 footer {
-    background-color: #333;
+    background-color: #ff0000c6;
     color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
-    color: #a79898;
+    color: #ffffff;
 }
 
 /* Estilo para el enlace de correo electrónico */
 footer a {
-    color: #E63946;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
@@ -118,16 +169,15 @@ footer a {
 
 /* Cambia el color del enlace de correo electrónico en hover */
 footer a:hover {
-    color: #F1FAEE;
+    color: #000000;
 }
 
 /* Estilos que se pueden repetir en diferentes páginas */
 .return-btn {
-    background-color: #E63946;
-    color: #FFFFFF;
+    background-color: #ff0116ce;
+    color: #000000;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -136,16 +186,15 @@ footer a:hover {
 }
 
 .return-btn:hover {
-    background-color: #1D3557;
+    background-color: #f77371;
     color: #F1FAEE;
 }
 
 .next-btn {
-    background-color: #1D3557;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -154,5 +203,5 @@ footer a:hover {
 }
 
 .next-btn:hover {
-    background-color: #E63946;
+    background-color: #f77371;
 }
